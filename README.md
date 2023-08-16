@@ -40,6 +40,15 @@ python test_mine.py --mode all --model_path 'downloaded/checkpoint/path/' --resu
   - `--resume`: the saved model name.
   - `--gpu`:  which gpu to run.
 
+For example:
+
+Download `sysu_all_mAP_best.t` in [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) and put it in '/home/user/UCT/'.
+
+Test our model on SYSU-MM01 dataset in All-Search settings by 
+  ```bash
+python test_mine.py --mode all --model_path '/home/user/UCT/' --resume 'sysu_all_mAP_best.t' --gpu 1 --dataset sysu
+  ```
+
 ### Usage
 
-Our code extends the pytorch implementation of HCT [1] in [Github](https://github.com/hijune6/Hetero-center-triplet-loss-for-VT-Re-ID).
+Our code extends the pytorch implementation of HCT in [Github](https://github.com/hijune6/Hetero-center-triplet-loss-for-VT-Re-ID).
