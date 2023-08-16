@@ -18,7 +18,7 @@ Pytorch code for "Unbiased Feature Learning with Causal Intervention for Visible
 
 ```bash
 # Create python environment (optional)
-conda create -n UCT
+conda create -n UCT python==3.8.16
 conda activate UCT
 
 # Install python dependencies
