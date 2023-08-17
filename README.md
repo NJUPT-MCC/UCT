@@ -3,6 +3,7 @@ Pytorch code for "Unbiased Feature Learning with Causal Intervention for Visible
 
 ## Updates
  **[23.08.16]** We publish the checkpoint for testing our model.
+ 
  **[23.08.16]** We publish the code for testing, and after the paper is accepted, we will publish the training code.
 
 ## Results
