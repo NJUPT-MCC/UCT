@@ -2,6 +2,8 @@
 Pytorch code for "Unbiased Feature Learning with Causal Intervention for Visible-Infrared Person Re-identification"
 
 ## Updates
+ **[24.01.04]** We have optimized our model for better performance.
+
  **[23.08.16]** We publish the checkpoint for testing our model.
  
  **[23.08.16]** We publish the code for testing, and after the paper is accepted, we will publish the training code.
@@ -10,10 +12,10 @@ Pytorch code for "Unbiased Feature Learning with Causal Intervention for Visible
 
 | Datasets   | Settings         | Pretrained | Rank@1 | mAP    | mINP   | Model          |
 | ---------- | ---------------- | ---------- | ------ | ------ | ------ | -------------- |
-| #SYSU-MM01 | All-Search       | ImageNet   | 79.28% | 75.88% | 63.76% | [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) |
-| #SYSU-MM01 | Indoor-Search    | ImageNet   | 84.61% | 85.24% | 82.08% | available soon |
+| #SYSU-MM01 | All-Search       | ImageNet   | 81.72% | 76.59% | 63.80% | available soon |
+| #SYSU-MM01 | Indoor-Search    | ImageNet   | 84.67% | 85.28% | 82.10% | available soon |
 | #RegDB     | Visible2Infrared | ImageNet   | 95.29% | 95.87% | 95.23% | [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) |
-| #RegDB     | Infrared2Visible | ImageNet   | 92.91% | 93.37% | 92.25% | available soon |
+| #RegDB     | Infrared2Visible | ImageNet   | 94.31% | 93.44% | 92.35% | available soon |
 
 ## Installation
 
@@ -36,7 +38,7 @@ pip install pytorch==1.13.1 torchvision==0.14.1
   
 - (2) SYSU-MM01 Dataset: The SYSU-MM01 dataset can be downloaded from this [website](http://isee.sysu.edu.cn/project/RGBIRReID.htm).
 
-   - run `python pre_process_sysu.py` to pepare the dataset, the training data will be stored in ".npy" format.
+   - run `python pre_process_sysu.py` to prepare the dataset, the training data will be stored in ".npy" format.
 
 ## Evaluation
 
