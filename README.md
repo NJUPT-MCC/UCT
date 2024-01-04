@@ -56,7 +56,7 @@ python test_mine.py --mode all --model_path 'downloaded/checkpoint/path/' --resu
 
 For example:
 
-Download `sysu_all_mAP_best.t` in [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) and put it in '/home/user/UCT/'.
+Download `sysu_all_mAP_best.t` in [wangpan]() and put it in '/home/user/UCT/'.
 
 Test our model on SYSU-MM01 dataset in All-Search settings by 
   ```bash
