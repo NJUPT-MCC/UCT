@@ -12,7 +12,7 @@ Pytorch code for "Unbiased Feature Learning with Causal Intervention for Visible
 
 | Datasets   | Settings         | Pretrained | Rank@1 | mAP    | mINP   | Model          |
 | ---------- | ---------------- | ---------- | ------ | ------ | ------ | -------------- |
-| #SYSU-MM01 | All-Search       | ImageNet   | 81.72% | 76.59% | 63.80% | available soon |
+| #SYSU-MM01 | All-Search       | ImageNet   | 81.72% | 76.59% | 63.80% | [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) |
 | #SYSU-MM01 | Indoor-Search    | ImageNet   | 84.67% | 85.28% | 82.10% | available soon |
 | #RegDB     | Visible2Infrared | ImageNet   | 95.29% | 95.87% | 95.23% | [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) |
 | #RegDB     | Infrared2Visible | ImageNet   | 94.31% | 93.44% | 92.35% | available soon |
@@ -56,7 +56,7 @@ python test_mine.py --mode all --model_path 'downloaded/checkpoint/path/' --resu
 
 For example:
 
-Download `sysu_all_mAP_best.t` in [wangpan]() and put it in '/home/user/UCT/'.
+Download `sysu_all_mAP_best.t` in [wangpan](https://pan.baidu.com/s/1tsB4MBe7dHMGUn18_xoDUg?pwd=hz7q) and put it in '/home/user/UCT/'.
 
 Test our model on SYSU-MM01 dataset in All-Search settings by 
   ```bash
